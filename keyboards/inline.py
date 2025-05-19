@@ -1,11 +1,11 @@
-import os, requests, json
+import json
 from googletrans import Translator
 from typing import Any
 
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from database.database import get_convertations, get_user_from_database
+from database.database import get_convertations
 
 translator = Translator()
 

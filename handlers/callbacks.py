@@ -1,4 +1,4 @@
-import os, freecurrencyapi, requests
+import os, requests
 from dotenv import load_dotenv
 from datetime import datetime
 
